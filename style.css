@@ -125,3 +125,24 @@ body {
   height: auto;
   border-radius: 16px;
 }
+
+@media (max-width: 768px) {
+  #second-part {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+  }
+  #second-part img {
+    width: 100%;
+    max-width: 427px;
+    height: auto;
+  }
+
+  #first-part {
+    margin-top: 60px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+}

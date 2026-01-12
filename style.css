@@ -7,7 +7,7 @@
 nav,
 h1,
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -43,10 +43,11 @@ p {
   font-weight: 400;
   color: #2b2b2b;
   line-height: 1.5;
+  margin-top: 17px;
 }
 
 button {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 21.33px;
   font-weight: 600;
   line-height: 1.5;
@@ -56,13 +57,15 @@ button {
   color: #ffffff;
   border: none;
   cursor: pointer;
+  min-width: 251px;
+  margin-top: 33px;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 32px;
+  padding: 32px 88px;
 }
 
 .logo-container {
@@ -73,7 +76,7 @@ button {
 }
 
 .nav-list a {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #2b2b2b;
@@ -93,7 +96,7 @@ button {
   gap: 17px;
   text-align: center;
   margin-bottom: 40px;
-  margin-top: 88px;
+  margin-top: 142px;
   padding-left: 70px;
   padding-right: 70px;
 }
@@ -103,10 +106,13 @@ button {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 #second-part img {
-  width: 30%;
+  width: 100%;
+  max-width: 626px;
   height: auto;
   border-radius: 16px;
 }

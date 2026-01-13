@@ -63,6 +63,12 @@ button {
   cursor: pointer;
   min-width: 251px;
   margin-top: 33px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: aquamarine;
+  transform: translateY(-2px);
 }
 
 .navbar {
@@ -93,7 +99,12 @@ body {
   font-weight: 400;
   font-size: 16px;
   color: #2b2b2b;
-  text-decoration: none;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: aqua;
 }
 
 #hero-section {

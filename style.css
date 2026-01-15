@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  a.logo-link {
+    text-decoration: none;
+  }
 }
 .container {
   width: 100%;
@@ -29,6 +33,7 @@ h1 {
   font-weight: 600;
   color: #285e67;
   line-height: 1.5;
+  text-decoration: none;
 }
 
 .eclipse {
@@ -100,7 +105,6 @@ body {
 .nav-list a {
   font-size: 16px;
   color: #2b2b2b;
-  text-decoration: underline;
   transition: color 0.3s ease;
 }
 
@@ -149,6 +153,7 @@ body {
   height: 3px;
   background-color: #285e67;
   border-radius: 2px;
+  margin: 5px 0;
 }
 /*=============TABLET================*/
 @media (max-width: 768px) {
@@ -164,6 +169,22 @@ body {
 
   #first-part {
     margin-top: 60px;
+  }
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .nav-list {
+    display: none;
+    flex-direction: column;
+  }
+
+  .nav-list.active {
+    display: flex;
+  }
+
+  .hamburger span {
+    transition: 0.3s;
   }
 }
 

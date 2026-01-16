@@ -263,3 +263,25 @@ h2 {
   flex-direction: column;
   gap: 61px;
 }
+/*=============TABLET================*/
+@media (max-width: 768px) {
+  #first-part-section-2 {
+    display: flex;
+    flex: 1 1 auto;
+    width: 100%;
+    min-width: 0;
+    justify-content: center;
+    padding-top: 64px;
+    padding-left: 155px;
+    padding-right: 155px;
+    gap: 69px;
+  }
+
+  .icon {
+    gap: 69px;
+  }
+
+  #second-part-section-2 {
+    display: none;
+  }
+}

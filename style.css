@@ -1,12 +1,15 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  a.logo-link {
-    text-decoration: none;
-  }
 }
+
+a.logo-link {
+  text-decoration: none;
+}
+
 .container {
   width: 100%;
   max-width: 1920px;
@@ -17,7 +20,8 @@
 nav,
 h1,
 p,
-button {
+button,
+h2 {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -93,6 +97,7 @@ button:hover {
 
 body {
   padding-top: 120px;
+  margin: 0px;
 }
 
 .logo-container {
@@ -132,6 +137,7 @@ body {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  padding-bottom: 110px;
 }
 
 #second-part img {
@@ -225,4 +231,35 @@ body {
     flex: 1 1 100%;
     max-width: 100%;
   }
+}
+/* second-section */
+
+h2 {
+  font-size: 50.52px;
+  font-weight: 600;
+  line-height: 62px;
+  color: #2b2b2b;
+  white-space: nowrap;
+}
+
+#section-2 {
+  display: flex;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 69px;
+}
+
+#first-part-section-2 {
+  padding-left: 112px;
+  padding-top: 99.73px;
+  padding-bottom: 51px;
+  display: flex;
+  flex-direction: column;
+  gap: 61px;
 }

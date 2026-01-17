@@ -12,10 +12,10 @@ a.logo-link {
 
 .container {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1364px;
   margin: 0 auto;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 nav,
 h1,

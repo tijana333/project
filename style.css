@@ -272,13 +272,17 @@ h2 {
     min-width: 0;
     justify-content: center;
     padding-top: 64px;
-    padding-left: 155px;
-    padding-right: 155px;
-    gap: 69px;
+  }
+
+  h2 {
+    align-items: centergot;
   }
 
   .icon {
     gap: 69px;
+    max-width: 589px;
+    margin: 0 auto;
+    text-align: center;
   }
 
   #second-part-section-2 {

@@ -292,7 +292,7 @@ h2 {
 /* section-3 */
 #section-3 {
   display: flex;
-  gap: 25px;
+  gap: 53px;
   padding-top: 70px;
 }
 
@@ -310,7 +310,7 @@ h2 {
 #columns-second-column {
   display: flex;
   flex-direction: column;
-  gap: 52.67px;
+  gap: 50px;
 }
 
 #column-one,
@@ -334,4 +334,8 @@ h2 {
   color: #285e67;
   line-height: 1.5;
   margin-top: 0px;
+}
+
+#first-part-section-3 img {
+  border-radius: 16px;
 }

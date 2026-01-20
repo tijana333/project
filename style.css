@@ -321,6 +321,7 @@ h2 {
   display: flex;
   gap: 53px;
   padding-top: 70px;
+  padding-bottom: 110px;
 }
 
 #second-part-section-3 {
@@ -419,4 +420,34 @@ h2 {
   #columns-second-column {
     gap: 26px;
   }
+}
+
+/* section-4 */
+#section-4 {
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  display: flex;
+  padding: 64px;
+  gap: 87px;
+  align-items: center;
+}
+
+#text-part-section-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+}
+
+#h2-section-4 {
+  font-size: 50.52px;
+  line-height: 30px;
+}
+
+.icon-section-4 {
+  display: flex;
+  gap: 69px;
+}
+
+.paragraph-section-4 {
+  margin-top: 20px;
 }

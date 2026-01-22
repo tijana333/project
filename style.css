@@ -547,6 +547,7 @@ h2 {
   align-items: center;
   background: transparent;
   color: #ffffff;
+  box-sizing: border-box;
   border: 1px solid #f4f4f4;
   border-radius: 67px;
 
@@ -554,6 +555,7 @@ h2 {
   font-size: 21.33px;
   line-height: 24px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 #content {
@@ -573,7 +575,7 @@ h2 {
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: -200px;
+  bottom: -120px;
   left: 50%;
   transform: translateX(-50%);
   width: calc(100% - 64px);
@@ -600,4 +602,65 @@ h3 {
 #icon-part img {
   width: 82px;
   height: 82px;
+}
+
+#icon-first-column,
+#icon-second-column {
+  display: flex;
+  flex-direction: row;
+  gap: 98.75px;
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  #icon-first-column,
+  #icon-second-column {
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+  }
+  #icon-part {
+    bottom: -380px;
+    max-width: 743px;
+  }
+  #text-part-section-5 {
+    text-align: center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  #h2-section-5 {
+    font-size: 21.33px;
+    line-height: 31px;
+    font-weight: 600;
+  }
+  #icon-part {
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    max-width: 298px;
+    text-align: center;
+    bottom: -800px; /*razumem da ovo sigurno nije ispravno*/
+  }
+
+  #button-section-5 {
+    font-size: 16.33px;
+    padding: 10px; /*ovo sam ja dodala nije u figmi */
+    min-width: 130px;
+    margin-top: 12px;
+  }
+
+  .paragraph-section-5 {
+    display: none;
+  }
+
+  #content {
+    gap: 12px;
+  }
+
+  #text-part-section-5 img {
+    width: 46.5px;
+    height: 41.47px;
+  }
 }

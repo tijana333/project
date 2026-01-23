@@ -130,7 +130,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 17px;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -138,7 +137,7 @@ body {
 #second-part {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 48px;
   flex-wrap: wrap;
   padding-bottom: 110px;
 }
@@ -174,11 +173,12 @@ body {
   #second-part {
     flex-direction: column;
     align-items: center;
+    gap: 28px;
   }
 
-  #first-part {
+  /* #first-part {
     margin-top: 60px;
-  }
+  /* } */ /*proveriti da li je uopste potrebno */
   .hamburger-menu {
     display: flex;
   }
@@ -249,6 +249,7 @@ h2 {
   border-radius: 12px;
   gap: 24px;
   padding: 64px;
+  padding-bottom: 0px;
 }
 
 .icon {
@@ -283,7 +284,7 @@ h2 {
     width: 100%;
     min-width: 0;
     justify-content: center;
-    padding-top: 64px;
+    padding-bottom: 51.73px;
   }
 
   h2 {
@@ -312,6 +313,7 @@ h2 {
   .icon {
     display: flex;
     flex-direction: column;
+    gap: 26px;
   }
 
   #first-part-section-2 {
@@ -329,13 +331,11 @@ h2 {
 #second-part-section-3 {
   display: flex;
   flex-direction: column;
-  gap: 50px;
   justify-content: space-between;
 }
 #text-part-second-column {
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 #columns-second-column {
   display: flex;
@@ -375,6 +375,7 @@ h2 {
 }
 
 /*=============TABLET================*/
+
 @media (max-width: 768px) {
   #first-part-section-3 img {
     height: 100%;
@@ -383,17 +384,18 @@ h2 {
   }
   #second-part-section-3 {
     width: 50%;
-    align-items: flex-start;
+    align-items: flex-end;
     text-align: left;
-    gap: 52.67px;
+    gap: 70px;
   }
-
   #section-3 {
+    flex-direction: row;
     gap: 25px;
   }
 
   #header-section-2 {
     text-align: left;
+    margin-top: 0px;
   }
 
   #columns-second-column {
@@ -408,11 +410,6 @@ h2 {
 
 /* Mobile */
 @media (max-width: 480px) {
-  #section-3 {
-    flex-direction: column;
-    gap: 20px;
-  }
-
   #second-part-section-3 {
     width: 100%;
     gap: 26 px;

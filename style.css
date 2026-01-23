@@ -509,6 +509,7 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  border-radius: 16px;
 }
 
 #text-part-section-5 {
@@ -556,6 +557,7 @@ h2 {
   line-height: 24px;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-bottom: 120px;
 }
 
 #content {
@@ -568,9 +570,9 @@ h2 {
 #icon-part {
   background-color: #fce2d7;
   border-radius: 16px;
-  padding: 66px 119px;
+  padding: 66px;
   display: flex;
-  gap: 98.75px;
+  gap: 8px;
 
   align-items: center;
   justify-content: center;
@@ -597,6 +599,7 @@ h3 {
   flex-direction: column;
   gap: 11px;
   align-items: center;
+  width: 100%;
 }
 
 #icon-part img {
@@ -608,7 +611,8 @@ h3 {
 #icon-second-column {
   display: flex;
   flex-direction: row;
-  gap: 98.75px;
+  width: 100%;
+  gap: 8px;
 }
 
 /* tablet */
@@ -617,11 +621,16 @@ h3 {
   #icon-second-column {
     display: flex;
     flex-direction: column;
-    gap: 49px;
+    gap: 30px;
   }
   #icon-part {
-    bottom: -380px;
+    bottom: -210px;
     max-width: 743px;
+  }
+
+  #icon-part img {
+    width: 60px;
+    height: 60px;
   }
   #text-part-section-5 {
     text-align: center;
@@ -641,7 +650,7 @@ h3 {
     gap: 49px;
     max-width: 298px;
     text-align: center;
-    bottom: -800px; /*razumem da ovo sigurno nije ispravno*/
+    bottom: -200px;
   }
 
   #button-section-5 {

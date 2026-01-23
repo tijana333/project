@@ -86,13 +86,16 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 32px 88px;
+  padding: 32px;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  right: 0;
   z-index: 1000;
   background: #fff;
+  max-width: 1364px;
+  margin: 0 auto;
 }
 
 body {
@@ -649,7 +652,7 @@ h3 {
     gap: 49px;
     max-width: 298px;
     text-align: center;
-    bottom: -200px;
+    bottom: -480px;
   }
 
   #button-section-5 {

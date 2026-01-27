@@ -21,7 +21,8 @@ nav,
 h1,
 p,
 button,
-h2 {
+h2,
+footer {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -378,18 +379,14 @@ h2 {
 
 @media (max-width: 768px) {
   #first-part-section-3 img {
-    height: 100%;
     width: 100%;
-    object-fit: cover;
+    max-width: 429.5px;
   }
   #second-part-section-3 {
-    width: 50%;
-    align-items: flex-end;
-    text-align: left;
     gap: 70px;
   }
   #section-3 {
-    flex-direction: row;
+    flex-direction: column;
     gap: 25px;
   }
 
@@ -422,6 +419,11 @@ h2 {
 
   #columns-second-column {
     gap: 26px;
+  }
+
+  #section-3 {
+    flex-direction: column;
+    gap: 25px;
   }
 }
 
@@ -509,6 +511,7 @@ h2 {
   background-repeat: no-repeat;
   position: relative;
   border-radius: 16px;
+  margin-bottom: 112px;
 }
 
 #text-part-section-5 {
@@ -671,4 +674,57 @@ h3 {
     width: 46.5px;
     height: 41.47px;
   }
+}
+
+footer {
+  background-color: #285e67;
+  color: #ffffff;
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 139px;
+  padding-right: 139px;
+  margin: 0 auto;
+}
+
+.nav-list-footer {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  line-height: 1.5;
+}
+
+.nav-list-footer a {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  transition: color ease 0.3s;
+}
+
+.logo-container-footer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#icon {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+#first-part-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+#logo-title-footer {
+  font-size: 21.33px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.5;
+  text-decoration: none;
 }

@@ -728,3 +728,16 @@ footer {
   line-height: 1.5;
   text-decoration: none;
 }
+
+/*=============TABLET================*/
+@media (max-width: 768px) {
+  .footer {
+    flex-wrap: wrap;
+    row-gap: 36px;
+  }
+
+  .nav-list-footer {
+    width: 100%;
+    justify-content: center;
+  }
+}

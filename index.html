@@ -1,206 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>Minimalistic Responsive Landing Page</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Responsive Cards</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
-    <header>
-      <div class="container">
-        <nav class="navbar">
-          <a href="/" class="logo-link">
-            <div class="logo-container">
-              <div class="eclipse"></div>
-              <h5 class="logo-title">Logo</h5>
-            </div>
-          </a>
+    <main class="container">
+      <h1>Flexbox Responsive Cards</h1>
 
-          <ul class="nav-list">
-            <li><a href="#about">About</a></li>
-            <li><a href="#services"> Services</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+      <section class="cards">
+        <article class="card">
+          <h2>Flexible Layout</h2>
+          <p>
+            This card shows how Flexbox adapts content to the available width
+            without breaking the layout.
+          </p>
+        </article>
 
-          <div class="hamburger-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <div class="container">
-        <section id="hero-section">
-          <div id="first-part">
-            <h1>The dawn of a new era in health is here</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
-              Diam lacus platea orci vel elit blandit facilisis
-            </p>
-            <button type="button">Join now</button>
-          </div>
-          <div id="second-part">
-            <img src=images/slika1.jpg alt="Meditation" /> <img
-            src=images/slika2.jpg alt="Medicinal Herbs" />
-          </div>
-           </div>
-        </section>
-         <div class="container">
-        <section id="section-2">
-          <div id="first-part-section-2">
-            <h2>Wellbeing is welldoing</h2>
-            <div class="icon">
-              <div id="icon-first-column-section-2">
-              <img src="images/icon-1.png" alt="Leaf icon" />
-              <p div class="paragraph-section-2">
-                Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
-                Diam lacus platea orci vel elit.
-              </p>
-              </div>
-               <div id="icon-second-column-section-2">
-              <img src="images/icon-1.png" alt="Leaf icon" />
-              <p div class="paragraph-section-2">
-                Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
-                Diam lacus platea orci vel elit.
-              </p>
-              </div>
-            </div>
-          </div>
-          <div id="second-part-section-2">
-            <img src="images/Illustration.png" alt="Woman meditating"/>
-          </div>
-        </div>
-        </section>
-         <div class="container">
-        <section id="section-3">
-          <div id="first-part-section-3">
-            <img src="images/a-plant.png" alt="Plant in hand"/>
-            </div>
-            <div id="second-part-section-3">
-            <div id="text-part-second-column">
-              <h2 id="header-section-2">Fresh organic produce</h2>
-              <p>Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a. Diam lacus platea orci vel elit blandit facilisis enim risus. Ut tristique eget integer odio nec vulputate consequat. Elit mattis ac in amet sit viverra.</p>
-            </div>
-            <div id="columns-second-column">
-              <div id="column-one">
-              <img src="images/icon-2.png" alt="Flower icon" class="icon-2" />
-              <p class="paragraph-section-3">Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a. Diam lacus platea</p>
-              </div>
-              <div id="column-two">
-              <img src="images/icon-2.png" alt="Flower icon" class="icon-2" />
-              <p class="paragraph-section-3">Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a. Diam lacus platea</p>
-              </div>
-              <div id="column-three">
-              <img src="images/icon-2.png" alt="Flower icon" class="icon-2" />
-              <p class="paragraph-section-3">Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a. Diam lacus platea</p>
-              </div>
-            </div>
-            </section>
-           </div>
-           <div class="container">
-        <section id="section-4">
-          <div id="first-part-section-4">
-            <img src="images/fruit.png" alt="Fruit"/>
-            </div>
-            <div id="text-part-section-4">
-              <h2 id="h2-section-4">You are what you eat</h2>
-            <div class="icon-section-4">
-              <div id="icon-first-column-4">
-              <img src="images/icon-3.png" alt="Leaf icon" />
-              <p class="paragraph-section-4">
-                Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
-                Diam lacus platea orci vel elit.
-              </p>
-              </div>
-              <div id="icon-second-column-4">
-              <img src="images/icon-3.png" alt="Leaf icon" />
-              <p class="paragraph-section-4">
-                Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a.
-                Diam lacus platea orci vel elit.
-              </p>
-              </div>
-            </div>
-          </section>
-          <div class="section-transition"></div>
-          <section id="section-5">
-            <div class="container">
-            <div id="hero-section-5">
-              <div id="text-part-section-5">
-                 <div id="content">
-                <img src="images/icon-4.png" alt="Leaf icon" />
-                 <h2 id="h2-section-5">Wellbeing starts with welldoing </h2>
-                 </div>
-              <p class="paragraph-section-5">
-                Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a. Diam lacus platea orci vel elit blandit facilisis enim risus. Ut tristique eget integer odio nec.
-              </p>
-              <button id="button-section-5">Join now</button>
-               </div>
-              </div>
-              <div id="icon-part">
-                <div id="icon-first-column">
-                <div id="icon-part-row1">
-                <img src="images/icon-5.png" alt="Leaf icon"/>
-                <h3>Plant Protective</h3>
-                </div>
-                 <div id="icon-part-row2">
-                <img src="images/icon-5.png" alt="Leaf icon"/>
-                <h3>Plant Protective</h3>
-                </div>
-                </div>
-                <div id="icon-second-column">
-                <div id="icon-part-row3">
-                <img src="images/icon-5.png" alt="Leaf icon"/>
-                <h3>Plant Protective</h3>
-                </div>
-                <div id="icon-part-row4">
-                <img src="images/icon-5.png" alt="Leaf icon"/>
-                 <h3>Plant Protective</h3>
-                </div>
-                </div>
-              </div>
-             </div>
-             </div>
-          </section>
-          <div class="section-transition"></div>
+        <article class="card">
+          <h2>Variable Heights</h2>
+          <p>
+            Cards can contain different amounts of text, and Flexbox allows
+            their heights to adjust naturally.
+          </p>
+        </article>
 
-         <container class="container">
-          <div class="footer"></div>
-          <footer>
-            <div id="first-part-footer">
-              <div class="logo-container-footer">
-              <div class="eclipse"></div>
-              <h5 id="logo-title-footer">Logo</h5>
-              </div>
+        <article class="card">
+          <h2>No Media Queries</h2>
+          <p>
+            Flexbox automatically manages spacing, alignment, and wrapping
+            without using media queries.
+          </p>
+        </article>
 
-              <div id="icon">
-              <img src="images/twitter.svg" alt="Twitter icon"/>
-              <img src="images/instagram.svg"alt="Instragram icon"/>
-              <img src="images/linkedin.svg" alt="Linkedin icon"/>
-              <img src="images/facebook.svg" alt="Facebook icon"/>
-              </div>
-            </div>
-
-            <div id="second-part-footer">
-             <ul class="nav-list-footer">
-            <li><a href="#about">About</a></li>
-            <li><a href="#services"> Services</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          </div>
-          </footer>
-          </div>
-        </container>
+        <article class="card">
+          <h2>Automatic Wrapping</h2>
+          <p>
+            When there is not enough horizontal space, cards move onto a new row
+            automatically.
+          </p>
+        </article>
+      </section>
     </main>
-    <script src="js/navbar.js"></script>
   </body>
 </html>
